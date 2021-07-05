@@ -1,0 +1,55 @@
+.Rpage{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100%;
+}
+.Rmain{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid orange; */
+    margin: 70px 0px;
+}
+.Rheading{
+    /* border:  2px solid rgb(249 89 89); */
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(249 89 89);
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+.Rtext{
+    /* border: 2px solid green; */
+    font-size: 23px;
+}
+.Rsale{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+.Rimage{
+    /* border: 2px solid blue; */
+    display: grid;
+    place-items: center;
+}
+.Rimg{
+    width:min(100%,600px);
+}
+.Rtext2{
+    /* border: 2px solid lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.Rcolor{
+    color: rgb(249 89 89);
+}
+.Rbtn1{
+    background-color: rgb(249 89 89);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+/* Only NavLink activeclassName css is writen here. */
+
+.active{
+    color: skyblue;
+}

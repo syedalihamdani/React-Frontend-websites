@@ -1,0 +1,43 @@
+.Spage{
+    height: 100%;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249 89 89);
+
+}
+.Smain{
+    margin: 75px 0px;
+     height:  100%;
+    width: 98%;
+    padding: 6px;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    place-items: center;
+    grid-gap: 155px;
+}
+.Scard{
+    width: 280px;
+    height: 300px;
+    /* border: 2px solid blue; */
+}
+.Simg{
+    width: 100%;
+    height: 100%;
+}
+.Sbuy{
+    position: relative;
+    bottom: 53px;
+   
+}
+.Sbutton{
+    width: 150px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(249 89 89);
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.aboutpage{
+    /* border:  2px solid black; */
+    color: white;
+    /* width: 98%; */
+    /* margin: 50px 1%; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,380px));
+    grid-template-rows: repeat(2,670px);
+    justify-content: space-around;
+    background-image:linear-gradient(to right,blue ,lightblue, lightyellow);
+
+}
+.image{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+img{
+    border-radius: 23px;
+}
+
+.text{
+color: black;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+/* font-size: 23px; */
+}
+
+.btn4{
+    border: 2px solid blue;
+    background-color:transparent;
+    height: 35px;
+    width:90px;
+    /* font-weight: bold; */
+    color:blue;
+    font-size: 23px;
+    border-radius: 23px;
+}

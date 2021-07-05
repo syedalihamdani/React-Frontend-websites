@@ -1,0 +1,71 @@
+.Sfull{
+    width: 100vw;
+    height: 100vh;
+    /* border:  2px solid black; */
+    display: flex;
+    justify-content: center;
+
+
+}
+.Smain{
+    width: 99%;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-rows: repeat(2,500px);
+    padding: 23px 23px;
+}
+.Stext{
+   
+    /* background-color: blue; */
+    font-size: 2rem;
+    padding: 23px 23px;
+}
+.Sdiv2{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+.Simage{
+    background-color: brown;
+    grid-column: 1/span 10;
+    grid-row: 1/span 10;
+    border-radius: 50%;
+}
+
+.Sdesign{
+    background-color: yellow;
+    grid-column: 7/span 10;
+    grid-row: 7/ span 10;
+    border-radius: 50%;
+    z-index: 4;
+}
+.Simg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Sbtn1{
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    background-color: yellow;
+}
+@media only screen and (max-width:606px){
+    .Smain{
+        width: 98%;
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+        grid-template-rows: repeat(2,800px);
+        padding: 23px 23px;
+    }
+    .Sdiv2{
+        margin-top: 175px;
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+
+}

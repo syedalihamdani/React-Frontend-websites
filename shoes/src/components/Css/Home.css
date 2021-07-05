@@ -1,0 +1,63 @@
+.Hbackground::before{
+    content: "";
+    background: url(./Images/home.png) no-repeat center center/cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9999;
+}
+.Hmain{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 64px;
+    /* border: 4px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-rows: repeat(auto-fit,100vh);
+}
+.Htext{
+    /* border: 2px solid white; */
+    max-width: 280px, 40%;
+    color: white;
+    padding: 23px 23px;
+    font-size: 1rem;
+}
+.Himage{
+    /* border: 4px solid blue; */
+    max-width: 280px 50%;
+    height: 80%;
+}
+.Himg{
+    width: 100%;
+    height: 100%;
+}
+.Hspan{
+    color: orange;
+}
+.Hbuttons{
+    display: flex;
+    justify-content:center ;
+    
+}
+.Hbtn1{
+    width: 160px;
+    height: 50px;
+    margin: 23px 23px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(249 89 89);
+    color: white;
+}
+.Hbtn2{
+    width: 160px;
+    height: 50px;
+    margin: 23px 23px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(249 89 89);
+    background-color: white;
+}

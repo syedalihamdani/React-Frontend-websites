@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c549ebf.chunk.css",
+    "main.js": "/static/js/main.c4c48c12.chunk.js",
+    "main.js.map": "/static/js/main.c4c48c12.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.78a20ae4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.78a20ae4.js.map",
+    "static/js/2.2e583be0.chunk.js": "/static/js/2.2e583be0.chunk.js",
+    "static/js/2.2e583be0.chunk.js.map": "/static/js/2.2e583be0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4c549ebf.chunk.css.map": "/static/css/main.4c549ebf.chunk.css.map",
+    "static/js/2.2e583be0.chunk.js.LICENSE.txt": "/static/js/2.2e583be0.chunk.js.LICENSE.txt",
+    "static/media/About.c998e0dd.jpg": "/static/media/About.c998e0dd.jpg",
+    "static/media/Appartment.fc5aeb4d.jpg": "/static/media/Appartment.fc5aeb4d.jpg",
+    "static/media/Contacts.8dcb9787.jpg": "/static/media/Contacts.8dcb9787.jpg",
+    "static/media/Double.45118b05.jpg": "/static/media/Double.45118b05.jpg",
+    "static/media/Single.da1de3ab.jpg": "/static/media/Single.da1de3ab.jpg",
+    "static/media/home.3126eea2.jpg": "/static/media/home.3126eea2.jpg",
+    "static/media/logo1.74c611b8.jpg": "/static/media/logo1.74c611b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78a20ae4.js",
+    "static/js/2.2e583be0.chunk.js",
+    "static/css/main.4c549ebf.chunk.css",
+    "static/js/main.c4c48c12.chunk.js"
+  ]
+}
